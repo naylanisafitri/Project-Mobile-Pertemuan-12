@@ -1,0 +1,33 @@
+name: project_uts
+description: "Project UTS Flutter Pertemuan 1-7"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ✅ Bottom Navigation keren
+  salomon_bottom_bar: ^3.3.2
+
+  # ✅ Toast (Pertemuan 4 & 6)
+  fluttertoast: ^8.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/profile.jpg
+    - assets/sampul.jpg
